@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Card</title>
+</head>
+<body>
+    <table border="0">
+        <tbody>
+            <tr>
+                <th align="left" align="left">Whether citizan of india</th>
+                <th align="left" align="left">
+                    <div>
+                    <label> Yes</label>
+                    <input type="radio" name="citizan-group" id="yes">
+
+                    <label> No</label>
+                    <input type="radio" name="citizan-group" id="no">
+                    </div>
+                </th> 
+            </tr>
+
+            <tr>
+                <th align="left" align="left">
+                 Permant Account Number(PAN)
+                </th>
+                <th align="left" align="left">
+                    <input type="number" name="account-number" id="account-number">
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" align="left">
+                 Name
+                </th>
+                <th align="left" align="left">
+                    <input type="text" name="name" id="name">
+                </th>
+            </tr>
+
+            <tr>
+                <th align="left" align="left">
+                   Title
+                </th>
+                <th align="left" align="left">
+                    <div>
+                        <label for="Mr">Mr</label>
+                        <input type="radio" name="title" id="mr">
+
+                        <label for="Mr">Mrs</label>
+                        <input type="radio" name="title" id="mrs">
+
+                        <label for="Mr">Ms</label>
+                        <input type="radio" name="title" id="ms">
+                    </div>
+                </th>
+
+            </tr>
+            <tr>
+                <th align="left" align="left">Father Name</th>
+            </tr>
+            <tr>
+                <th align="left" align="left">
+                    <label for="lastname">Last Name /SureName</label><br>
+                    <input type="text" name="father-lastname" >
+                </th>
+
+                <th align="left" align="left">
+                    <label for="lastname">First Name</label><br>
+                    <input type="text" name="father-firstname" >
+                </th>
+
+                <th align="left" align="left">
+                    <label for="lastname">Middle Name</label><br>
+                    <input type="text" name="father-middlename" >
+                </th>
+            </tr>
+
+        </tr>
+        <tr>
+            <th align="left" align="left">Mother Name</th>
+        </tr>
+        <tr>
+            <th align="left" align="left">
+                <label for="lastname">Last Name /SureName</label><br>
+                <input type="text" name="mother-lastname" >
+            </th>
+
+            <th align="left" align="left">
+                <label for="lastname">First Name</label><br>
+                <input type="text" name="mother-firstname" >
+            </th>
+
+            <th align="left" align="left">
+                <label for="lastname">Middle Name</label><br>
+                <input type="text" name="mother-middlename" >
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">
+               Select the parrent name which is to be pritented on the card :
+            </th>
+            <th align="left" align="left">
+                <div>
+                    <label for="father-name">Father Name</label>
+                    <input type="radio" name="printed-partentname" id="father-name">
+
+                    <label for="mother-name">Mother Name</label>
+                    <input type="radio" name="printed-partentname" id="mother-name">   
+                </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left" colspan="2">
+                Date of Birth for Agrement PartnerShip or trust Dead/formation of body of individutal Associtation Perosons
+            </th>
+            <th align="left">
+                <label for="date">DD</label><br>               
+                <select id="date">
+                    <option value="00" selected>DD</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+            </th>
+            <th align="left" align="left">
+                <label for="month">MM</label><br>
+                <select id="month">
+                    <option value="00" selected>MM</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </th>
+            <th align="left" align="left">
+                <label for="year">YYYY</label><br>               
+                <select id="year">
+                    <option value="0000" selected>YYYY</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">
+               Gender
+            </th>
+            <th align="left" align="left">
+                <div>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="gender" id="male">
+
+                    <label for="Female">Female</label>
+                    <input type="radio" name="gender" id="female">
+
+                    <label for="TransGender">TransGender</label>
+                    <input type="radio" name="gender" id="transgender">
+                </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Photo mismath</th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Signature mismath</th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Address for communication</th>
+            <th align="left" align="left">
+                <label for="Residential">Residential</label>
+                <input type="radio" name="adrress">
+                <label for="office">Office</label>
+                <input type="radio" name="adrress">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Office Name</th>
+            <th align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Flat DoorBlock No.</th>
+            <th align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left" align="left">Name of the Premisies wedding Village</th>
+            <th align="left" align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left" align="left">Road/Street/Lane/Post Office</th>
+            <th align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Area/Sub-Division</th>
+            <th align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Town/City/District</th>
+            <th align="left" align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">State/Union</th>
+            <th align="left" align="left">
+                <select id="state">
+                    <option value="default" selected>Please Select</option>
+                    <option value="tamilnadu">TamilNadu</option>
+                    <option value="Andrea">Andrea</option>
+
+                </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">PIN</th>
+            <th align="left" align="left">
+                <input type="Number" name="pin" id="pincode">
+            </th>
+        </tr>
+
+
+        <tr>
+            <th align="left" align="left">Country</th>
+            <th align="left" align="left" colspan="2">
+                <select id="country">
+                    <option value="default" selected>Please Select</option>
+                    <option value="srilanka">Srilanka</option>
+                    <option value="India">India</option>
+
+                </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Zip</th>
+            <th align="left">
+                <input type="Number" name="zip" id="zipcode">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" colspan="5" align="left">
+               10. if you desire to update office address give the required details and submit prof of the address also.
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" rowspan="5">Telephone Number</th>          
+        </tr>
+        <tr>
+            <th align="left">country code</th>
+        </tr>
+        <tr>
+            <th align="left">
+                <select name="countrycode" id="countrycode">
+                    <option value="default" selected>Please Select</option>
+                    <option value="sm133">sm133</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th align="left">
+                <label for="mobile No">Mobile No</label>
+                <input type="radio" name="phonenumber">
+            </th>
+            <th align="left">
+                <label for="Telephone No">Telephone No</label>
+                <input type="radio" name="phonenumber">
+            </th>
+        </tr>
+        <tr>
+            <th align="left" align="left">
+                <label for="area std code">Area STD code</label>
+                <input type="text" >
+            </th>
+            <th align="left" align="left">
+                <label for="Telephone">Telephone No/Mobile Number</label>
+                <input type="text" >
+            </th>
+        </tr>
+        <tr>
+            <th align="left">Email id</th>
+            <th align="left">
+                <input type="email" name="email" id="email">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">Case of choosen in india </th>
+            <th align="left">               
+                <label for="Aadhaar">AADHAAR</label>
+                <input type="radio" name="case">
+               
+                <label for="eid">EID</label>
+                <input type="radio" name="case">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" rowspan="3">AADHAAR Number</th>
+        </tr>
+        <tr>
+            <th align="left">
+                <input type="text">
+            </th>
+        </tr>
+        <tr>
+            <th align="left">
+                no of cases in aadhaar numbers provided
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                aadhaar application fees
+             </th>
+             <th align="left" colspan="4">
+                 <input type="text">
+             </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                GSTN
+             </th>
+             <th align="left">
+                 <input type="text">
+             </th>
+        </tr>
+
+        <tr>
+            <th align="left" colspan="5">
+                Mention the office Permant Account Numbers if any individutal allowed to you (submit the proof for pan) along with application
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                <label for="PAN1">PAN1</label>
+                <input type="text">
+            </th>
+            <th align="left">
+                <label for="PAN2">PAN2</label>
+                <input type="text">
+            </th>
+        </tr>
+        <tr>
+            <th align="left">
+                <label for="PAN3">PAN3</label>
+                <input type="text">
+            </th>
+            <th align="left">
+                <label for="PAN4">PAN4</label>
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">16.Verification</th>
+        </tr>
+
+        <tr>
+            <th align="left" colspan="5" align="left">
+                we <input type="text"> for application is the capacity of 
+                <select name="agree" id="agree">
+                    <option value="default" selected>Please Select</option>
+                    <option value="agree">agreed</option>
+                </select> do hertity declare that what is stand above is true to the brief of my attatention and brief .... <br>
+                 I have selected <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" align="left">Place</th>
+            <th align="left">
+                <input type="text">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left" colspan="5" align="left">
+                <select name="nameproof" id="nameproof">
+                    <option value="default" selected>Please Select</option>
+                    <option value="sm133">sm133</option>
+                </select> the proof of 
+                    <select name="addressproof" id="addressproof">
+                        <option value="default" selected>Please Select</option>
+                        <option value="sm133">sm133</option>
+                    </select> as proof of address 
+                        <select name="dateofbirthproof" id="dateofbirthproof">
+                            <option value="default" selected>Please Select</option>
+                            <option value="sm133">sm133</option>
+                </select> the date of birth prrof as pan Board             
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                Whether you wish to here
+            </th>
+            <th align="left">
+                <label for="pan card">Pysical pan card $ e pan card</label>
+                <input type="radio" name="pancard">
+            </th>
+            <th align="left">
+                <label for="pan card">Only e pan card</label>
+                <input type="radio" name="pancard">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">Oher Datails</th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                <label for="cip">CIP ID :</label>
+                <input type="text" name="cip" id="cip">
+            </th>
+            <th align="left">
+                <label for="client">Client ID :</label>
+                <input type="text">
+            </th>
+        </tr>
+        <tr>
+            <th align="left">
+                for paper less PAN application
+            </th>
+            <th align="left" align="left">
+                <label for="rad">Yes</label>
+                <input type="radio" name="se" id="yes">
+                <label for="rad">No</label>
+                <input type="radio" name="se" id="no">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                uplod photo
+            </th>
+            <th align="left">
+                <input type="submit" value="choose file">
+                <label for="sub"> No file choosen</label>
+            </th>
+            <th align="left">
+                upload Signature
+            </th>
+            <th align="left">
+                <input type="submit" value="choose file">
+                <label for="sub"> No file choosen</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                ALREADY UPLOAD PHOTO
+            </th>
+            <th align="left">
+                <input type="text" size="50">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                ALREADY UPLOAD SiGNATURE
+            </th>
+            <th align="left" align="left">
+                <input type="text" size="40%">
+            </th>
+        </tr>
+
+        <tr>
+            <th align="left">
+                ALREADY UPLOAD DOCUMENTS
+            </th>
+            <th align="left" colspan="2">
+                <textarea name="" id="" cols="60" rows="8"></textarea>
+            </th>
+        </tr>
+        </tbody>
+    </table>
+
+    <div>
+       
+       
+    </div>
+    
+</body>
+</html>
